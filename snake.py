@@ -53,3 +53,7 @@ class Snake:
 
     def restart(self):
         pass
+
+
+    def might(self):
+        pass
