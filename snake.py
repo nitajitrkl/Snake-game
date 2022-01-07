@@ -19,8 +19,8 @@ class Snake:
             self.add_segment(position)
 
     def add_segment(self, position):
-        new_segment = Turtle("circle")
-        new_segment.color("red")
+        new_segment = Turtle("square")
+        new_segment.color("blue")
         new_segment.penup()
         new_segment.goto(position)
         self.segments.append(new_segment)
